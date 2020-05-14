@@ -57,6 +57,7 @@ COPY fluent-bit.conf /fluent-bit/etc/
 # Custome config files
 COPY /custom/fluent-bit-nginx.conf /fluent-bit/etc/
 COPY /custom/fluent-bit-apache2.conf /fluent-bit/etc/
+COPY /custom/fluent-bit-service.conf /fluent-bit/etc/
 COPY fluent-bit.conf /fluent-bit/etc/fluent-bit-default.conf
 
 # Add parsers files
